@@ -27,7 +27,6 @@ pNode Graph::DFS(int value, pNode node)
 			pNode foundNode = DFS(value, *it);
 			if (foundNode != nullptr) return foundNode;
 		}
-		std::cout << std::endl;
 	}
 
 	return nullptr;
